@@ -7,7 +7,7 @@ export default function Cart({ items, onIncrease, onDecrease, onPlaceOrder }) {
   return (
     <div>
       <h2>Your Cart</h2>
-      {items.length === 0 ? (
+      {items.length === 0 ? (   
         <p className="muted">Cart is empty</p>
       ) : (
         <div className="cart-list">
